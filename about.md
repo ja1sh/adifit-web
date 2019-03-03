@@ -3,9 +3,7 @@ layout: page
 title: ADIFIT | Training Program
 description: by Aditya Mohan
 sitemap:
-    priority: 0.7
-    lastmod: 2019-3-03
-    changefreq: yearly
+
 ---
 ## ADIFIT TRAINING PROGRAM: An Introduction
 
