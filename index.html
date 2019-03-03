@@ -1,0 +1,116 @@
+---
+layout: null
+title: Welcome to Adifit Training Program 
+description: Years of experience and experties
+sitemap:
+    priority: 1.0
+    lastmod: 2017-11-02
+    changefreq: weekly
+---
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+  Jekyll integration by somiibo.com
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+    {% include head.html %}
+
+
+	</head>
+	<body class="is-loading">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+            <h1>{{site.title}}</h1>
+						<h2>by Aditya Mohan</h2>
+						<p>Fitness Endorser - Entrepreneur - Optimist <a href="https://www.facebook.com/fitnessinfluencerandendorser/">@AdityaMohan</a>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+
+            {% include nav.html %}
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">About the Author</a></h2>
+									<p>Aditya Mohan, a rising name in fitness industry, is a dedicated individual who believes
+in following his passion. <br />His passion for fitness keeps him motivated physically,
+mentally and spiritually. <br />With more than a decade of experience in the fitness line,
+Aditya has observed the industry very closely. <br />Trained by Dronacharya awardee Sh.
+Bhupender Dhawan, one of the most renowned names of fitness industry in India,<br />
+Aditya currently runs his own gym by the name of ‘Fitness Tree’. <br />With his experience
+he has come to a conclusion that if one has to sustain his fitness for long, it is only
+possible by following the mantra - “Be a hard worker, a consistent learner, a
+perseverant self-trainer and a passionate go-getter.’’<br /><br />With the same perception, he has brought out a range of e-books under the name,<br />
+‘Adifit Training Program’.</p>
+								</header>
+								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:3 %}
+                {% assign mod3 = forloop.index | modulo: 3 %}
+  								<article>
+  									<header>
+  										<!--<span class="date">{{ post.date | date_to_string }}</span> >-->
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.excerpt }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">Buy Now</a></li>
+  									</ul>
+  								</article>
+                  {% if mod3 == 0 %}
+                  <article>
+  									<header>
+  										<h2><a href="#">Sponsored</a></h2>
+  									</header>
+
+  								</article>
+                  {% endif %}
+                {% endfor %}
+
+							</section>
+
+						<!-- Footer -->
+							<footer>
+                <ul class="actions">
+                  <li><a href="{{ "/about/" | absolute_url }}" class="button">About the Program</a></li>
+                </ul>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+        {% include foot.html %}
+
+			</div>
+
+		<!-- Scripts -->
+		{% include scripts-main.html %}
+    {% include tracking.html %}
+
+	</body>
+</html>
