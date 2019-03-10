@@ -14,18 +14,6 @@ Adifit Training Program combines years of experience and expertise to form effec
 Wishing you the very best for your future fitness goals. Just remember that, the journey of achieving your best physique is a marathon, not a sprint.
 
 ### TAKEAWAYS FROM THIS TRAINING
-<div class="box">
-    <p><b>BIGGER BICEPS:</b><br />
-A 12-week intense training program that helps you in achieving not just bigger, but better shaped biceps.
-    </p>
-<p><b>CHISELED CHEST:</b><br />
-A 12-week intense training program that helps you in achieving not a just bigger, but a better shaped chest.
-    </p>
-<p><b>BOULDER SHOULDERS:</b><br />
-An eight-week intense training program that helps you in achieving not just bigger, but better shaped shoulders.
-  </p>
-</div>
-
 <div id="wrapper">
 <div class="box alt">
 <div class="row 50% uniform">
