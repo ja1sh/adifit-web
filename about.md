@@ -25,3 +25,15 @@ A 12-week intense training program that helps you in achieving not a just bigger
 An eight-week intense training program that helps you in achieving not just bigger, but better shaped shoulders.
   </p>
 </div>
+
+<div id="wrapper">
+<div class="box alt">
+<div class="row 50% uniform">
+<div class="4u"><span class="image fit"><img src="/images/pic05.jpg" alt="" /></span>A 12-week intense training program that helps you in achieving not just bigger, but better shaped biceps.</div>
+<div class="4u"><span class="image fit"><img src="/images/pic02.jpg" alt="" /></span>A 12-week intense training program that helps you in achieving not a just bigger, but a better shaped chest.</div>
+<div class="4u"><span class="image fit"><img src="/images/pic03.jpg" alt="" /></span>An eight-week intense training program that helps you in achieving not just bigger, but better shaped shoulders.</div>
+<div class="4u"><span class="image fit"><img src="/images/Arm-ageddon.jpg" alt="" /></span>A 8-week  intense training program that helps you in achieving not just bigger, but better shaped arms.</div>
+<div class="4u$"><span class="image fit"><img src="/images/triceps-torpedo.jpg" alt="" /></span>A 8-week intense training program that helps  you in achieving not just bigger, but better shaped triceps.</div>
+</div>
+</div>
+</div>
